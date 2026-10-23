@@ -47,7 +47,10 @@
               <label for="">Nama Produk Warung</label>
               <input type="text" />
             </div>
-            <div>
+            <div style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;">
               <div>
                 <label for="">Kategori Produk</label>
                 <select name="" id="">
@@ -66,9 +69,12 @@
           </div>
 
           <!-- SESI KE 2 -->
-          <div>
-            <h3>2.Harga dan margin laba</h3>
-            <div>
+          <div style ="background: white; padding:20px;border-radius: 12px;border: 1px solid #e2e8f0; margin-bottom: 20px;">
+            <h3 style="margin-bottom: 16px;">2.Harga dan margin laba</h3>
+            <div style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;">
               <div>
                 <label for="">Harga Modal / Beli (Rp)</label>
                 <input type="number" />
@@ -91,9 +97,12 @@
             </div>
           </div>
           <!-- SESI KE 3 -->
-          <div>
+          <div style ="background: white; padding:20px;border-radius: 12px;border: 1px solid #e2e8f0; margin-bottom: 20px;">
             <h3>3.Manajemen Stock & Peringatan</h3>
-            <div>
+            <div style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;">
               <div>
                 <label for="">Jumlah Stock Awal Saat ini</label>
                 <input type="number" />
@@ -104,22 +113,22 @@
               </div>
             </div>
           </div>
-          <div>
-            <button type="submit">Batal</button>
-            <button type="submit">Simpan</button>
+          <div style="display: flex; justify-content: flex-end; gap: 12px;">
+            <button type="submit" class="btn btn-secondary">Batal</button>
+            <button type="submit" class="btn btn-primary">Simpan</button>
           </div>
         </form>
 
         <div>
-          <div>
-            <h3>Pratinjau Live Kartu Kasir</h3>
-            <div>
-              <span>Stock: 34 Botol</span>
-              <img src="" alt="" />
-              <div>
-                <small>Sembako</small>
-                <div>Minyak Goreng Sania 2 Liter</div>
-                <div>Rp. 37.000</div>
+          <div style="background: white; padding:20px;border-radius: 12px;border: 1px solid #e2e8f0; margin-bottom: 20px;">
+            <h3 style="margin-bottom: 12px;">Pratinjau Live Kartu Kasir</h3>
+            <div style="margin-bottom: 16;"class="product-card">
+              <span class="stock-tag">Stock: 34 Botol</span>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYKqGKS72Lf48eLPEPyjSP1WjOvOrrYWJt_Y6HBDplew&s=10" width="250"/>
+              <div class="product-card-body">
+                <small style="color: #64748b">Sembako</small>
+                <div style="font-weight: 700; font-size: 16px;">Minyak Goreng Sania 2 Liter</div>
+                <div style="font-size: 16px; font-weight: 800; margin-top: 8px;">Rp. 37.000</div>
               </div>
             </div>
           </div>
